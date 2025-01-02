@@ -1,0 +1,9 @@
+steps:
+  - label: ":npm: Install Dependencies"
+    command: "npm install"
+
+  - label: ":test_tube: Run Tests"
+    command: "npm test"
+
+  - label: ":rocket: Deploy"
+    command: "npm run deploy"
